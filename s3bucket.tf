@@ -4,7 +4,7 @@ provider "aws" {
  
 # Create S3 bucket
 resource "aws_s3_bucket" "static_website_bucket" {
-  bucket = "aditya369-bucket" # Ensure bucket name is globally unique and uses valid characters
+  bucket = "aditya369-bucket" 
  
   tags = {
     Project     = "StaticWebsiteDeployment"
